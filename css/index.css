@@ -1,3 +1,119 @@
-@import "reset.css";
 @import "common.css";
+@import "reset.css";
 @import "//at.alicdn.com/t/font_2060102_d048s5gcgxd.css";
+/* 统一样式 */
+button{
+    cursor: pointer;
+}
+
+
+/* 首页通用样式 */
+.float-left {
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clearfix::after{
+    content: ".";
+    display: block;
+    clear: both;
+}
+.container{
+    margin: 0 auto;
+    width: 950px;
+}
+
+
+
+
+/* 头部样式 */
+.header{
+    height: 60px;
+    padding-top: 30px;
+    /* box-sizing: border-box; */
+}
+.header > .container{
+    width: 1080px; 
+}
+
+/* .header .logo,
+.header .search,
+.header .nav{
+    height: 34px;
+    border: 2px solid;
+} */
+
+.header .logo a{
+    display: block;
+    background: url(../img/logo_db.png) no-repeat top left/100%;
+    width: 154px;
+    height: 30px;
+    cursor: pointer;
+}
+.header .logo a span {
+    display: none;
+}
+
+.header .search{
+    border: 1px solid #c3c3c3;
+    width: 270px;
+    height: 30px;
+    margin-left: 20px;
+    position: relative;
+}
+.header .search .txt{
+    width: 240px;
+    height: 20px;
+    padding: 5px;
+    font-size: 13px;
+}
+.header .search .txt::placeholder{
+    color: #ccc;
+}
+.header .search button{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #c3c3c3;
+}
+.header .nav{
+    margin-top: 6px;
+}
+.header .nav a{
+    background: url("../img/nav_logo.png") no-repeat left top/463px 20px;
+    width: 40px;
+    height: 20px;
+    float: left;
+    margin-left: 20px;
+}
+.header .nav .menu-book{
+    background-position: 0 0;
+}
+.header .nav .menu-movie{
+    background-position: -60px 0;
+}
+.header .nav .menu-music{
+    background-position: -120px 0;
+}
+.header .nav .menu-city{
+    background-position: -300px 0;
+}
+.header .nav .menu-group{
+    background-position: -180px 0;
+}
+.header .nav .menu-read{
+    background: url("../img/nav_read.png") no-repeat top left/100% 100%;
+}
+.header .nav .menu-fm{
+    background-position: -240px 0;
+}
+.header .nav .menu-time{
+    background: url("../img/nav_time.png") no-repeat top left/100% 100% ;
+}
+.header .nav .menu-goods{
+    background-position: -420px 0;
+    width: 43px;
+}
