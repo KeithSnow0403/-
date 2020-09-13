@@ -1,0 +1,29 @@
+@import "//at.alicdn.com/t/font_2060102_n4dbmar1sx.css";
+body{
+    font-family: Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    color: #333;
+}
+.float-left {
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+button{
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+.btn{
+    background:#41ac52;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+}
