@@ -27,3 +27,6 @@ button{
     text-align: center;
     border-radius: 4px;
 }
+li{
+    list-style: none;
+}
