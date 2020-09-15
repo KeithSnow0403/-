@@ -69,6 +69,12 @@ ul,li{
 .section-title a:hover{
     background: #27a;
 }
+.aside-left .title{
+    font-size: 24px;
+}
+.dark-color{
+    color: #494949;
+}
 /* 头部样式 */
 .header{
     height: 60px;
@@ -274,4 +280,27 @@ ul,li{
 }
 .section .container .main .hot-main .float-right li .desc{
     color: #666;
+}
+/* 豆瓣时间 */
+.time-main li{
+    display: inline-block;
+    width: 100px;
+    margin: 0 60px 30px 0;
+    line-height: 1.5;
+    font-size: 13px;
+    text-align: center;
+}
+.time-main li .img img{
+    width:100%;
+}
+.time-main li .words a{
+    color: #333;
+}
+.time-main li .words a:hover{
+    color: #fff;
+}
+.time-main li .words span{
+    display: block;
+    color: #999;
+    font-size: 12px;
 }
